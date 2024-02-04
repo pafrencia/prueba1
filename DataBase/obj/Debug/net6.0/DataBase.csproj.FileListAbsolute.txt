@@ -1,0 +1,14 @@
+C:\PRUEBAA\DataBase\bin\Debug\net6.0\DataBase.deps.json
+C:\PRUEBAA\DataBase\bin\Debug\net6.0\DataBase.runtimeconfig.json
+C:\PRUEBAA\DataBase\bin\Debug\net6.0\DataBase.dll
+C:\PRUEBAA\DataBase\bin\Debug\net6.0\DataBase.pdb
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.csproj.AssemblyReference.cache
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.AssemblyInfoInputs.cache
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.AssemblyInfo.cs
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.csproj.CoreCompileInputs.cache
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.dll
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\refint\DataBase.dll
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.pdb
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\DataBase.genruntimeconfig.cache
+C:\PRUEBAA\DataBase\obj\Debug\net6.0\ref\DataBase.dll
