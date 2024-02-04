@@ -1,6 +1,6 @@
 ﻿namespace EjemploEF
 {
-    partial class Form1
+    partial class Frm_CargaPersona
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,12 +33,6 @@
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.Borrar = new System.Windows.Forms.Button();
             this.dataGridViewAlumnos = new System.Windows.Forms.DataGridView();
-            this.DataGridId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataGridNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataGridApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataGridEdad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataGridDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataGridFechaNacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.TxtApellido = new System.Windows.Forms.TextBox();
             this.TxtEdad = new System.Windows.Forms.TextBox();
@@ -52,6 +46,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btmLimpiar = new System.Windows.Forms.Button();
             this.dateNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.DataGridId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridEdad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DataGridFechaNacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,42 +107,6 @@
             this.dataGridViewAlumnos.Size = new System.Drawing.Size(1203, 210);
             this.dataGridViewAlumnos.TabIndex = 2;
             this.dataGridViewAlumnos.Click += new System.EventHandler(this.dataGridViewAlumnos_Click);
-            // 
-            // DataGridId
-            // 
-            this.DataGridId.DataPropertyName = "Id";
-            this.DataGridId.HeaderText = "ID";
-            this.DataGridId.Name = "DataGridId";
-            // 
-            // DataGridNombre
-            // 
-            this.DataGridNombre.DataPropertyName = "nombre";
-            this.DataGridNombre.HeaderText = "NOMBRE";
-            this.DataGridNombre.Name = "DataGridNombre";
-            // 
-            // DataGridApellido
-            // 
-            this.DataGridApellido.DataPropertyName = "apellido";
-            this.DataGridApellido.HeaderText = "APELLIDO";
-            this.DataGridApellido.Name = "DataGridApellido";
-            // 
-            // DataGridEdad
-            // 
-            this.DataGridEdad.DataPropertyName = "edad";
-            this.DataGridEdad.HeaderText = "EDAD";
-            this.DataGridEdad.Name = "DataGridEdad";
-            // 
-            // DataGridDireccion
-            // 
-            this.DataGridDireccion.DataPropertyName = "direccion";
-            this.DataGridDireccion.HeaderText = "DIRECCION";
-            this.DataGridDireccion.Name = "DataGridDireccion";
-            // 
-            // DataGridFechaNacimiento
-            // 
-            this.DataGridFechaNacimiento.DataPropertyName = "[fecha de nacimiento]";
-            this.DataGridFechaNacimiento.HeaderText = "FECHA NACIMIENTO";
-            this.DataGridFechaNacimiento.Name = "DataGridFechaNacimiento";
             // 
             // button1
             // 
@@ -254,11 +218,47 @@
             this.dateNacimiento.Size = new System.Drawing.Size(200, 20);
             this.dateNacimiento.TabIndex = 5;
             // 
-            // Form1
+            // DataGridId
+            // 
+            this.DataGridId.DataPropertyName = "Id";
+            this.DataGridId.HeaderText = "ID";
+            this.DataGridId.Name = "DataGridId";
+            // 
+            // DataGridNombre
+            // 
+            this.DataGridNombre.DataPropertyName = "nombre";
+            this.DataGridNombre.HeaderText = "NOMBRE";
+            this.DataGridNombre.Name = "DataGridNombre";
+            // 
+            // DataGridApellido
+            // 
+            this.DataGridApellido.DataPropertyName = "apellido";
+            this.DataGridApellido.HeaderText = "APELLIDO";
+            this.DataGridApellido.Name = "DataGridApellido";
+            // 
+            // DataGridEdad
+            // 
+            this.DataGridEdad.DataPropertyName = "edad";
+            this.DataGridEdad.HeaderText = "EDAD";
+            this.DataGridEdad.Name = "DataGridEdad";
+            // 
+            // DataGridDireccion
+            // 
+            this.DataGridDireccion.DataPropertyName = "direccion";
+            this.DataGridDireccion.HeaderText = "DIRECCION";
+            this.DataGridDireccion.Name = "DataGridDireccion";
+            // 
+            // DataGridFechaNacimiento
+            // 
+            this.DataGridFechaNacimiento.DataPropertyName = "fecha_de_nacimiento";
+            this.DataGridFechaNacimiento.HeaderText = "FECHA NACIMIENTO";
+            this.DataGridFechaNacimiento.Name = "DataGridFechaNacimiento";
+            // 
+            // Frm_CargaPersona
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 639);
+            this.ClientSize = new System.Drawing.Size(1243, 639);
             this.Controls.Add(this.dateNacimiento);
             this.Controls.Add(this.btmLimpiar);
             this.Controls.Add(this.label5);
@@ -277,8 +277,9 @@
             this.Controls.Add(this.Borrar);
             this.Controls.Add(this.Modificar);
             this.Controls.Add(this.GUARDAR);
-            this.Name = "Form1";
+            this.Name = "Frm_CargaPersona";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAlumnos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -292,12 +293,6 @@
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Button Borrar;
         private System.Windows.Forms.DataGridView dataGridViewAlumnos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridNombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridApellido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridEdad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridDireccion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridFechaNacimiento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox TxtApellido;
         private System.Windows.Forms.TextBox TxtEdad;
@@ -311,6 +306,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btmLimpiar;
         private System.Windows.Forms.DateTimePicker dateNacimiento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridApellido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridEdad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridDireccion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataGridFechaNacimiento;
     }
 }
 

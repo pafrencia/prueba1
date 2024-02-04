@@ -6,10 +6,10 @@ C:\PRUEBAA\EjemploEF\bin\Debug\EntityFramework.SqlServer.dll
 C:\PRUEBAA\EjemploEF\bin\Debug\EntityFramework.xml
 C:\PRUEBAA\EjemploEF\bin\Debug\EntityFramework.SqlServer.xml
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.csproj.AssemblyReference.cache
-C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.Form1.resources
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.Properties.Resources.resources
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.csproj.GenerateResource.cache
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.csproj.CoreCompileInputs.cache
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.csproj.CopyComplete
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.exe
 C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.pdb
+C:\PRUEBAA\EjemploEF\obj\Debug\EjemploEF.Frm_CargaPersona.resources
